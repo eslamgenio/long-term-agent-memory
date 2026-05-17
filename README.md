@@ -46,6 +46,38 @@ See also:
 - [[Vault Management Policy]]
 - [[Memory Ingestion Workflow]]
 
+## Vault activation prompts
+Use these ready-made prompts when you want Hermes to adopt this vault as the active external memory system.
+
+### Normal activation prompt
+Use when starting a new session or when you want standard vault-backed work without a full audit.
+
+```text
+Use the current folder’s Obsidian vault as canonical external memory. Read the root docs first and follow the documented hybrid memory-management workflow for this session.
+```
+
+### Deeper index-loading prompt
+Use when you want broader context before starting work, but not a full vault-wide audit.
+
+```text
+Use the current folder’s Obsidian vault as canonical external memory. Read the root docs and all major index notes before continuing, then use the documented hybrid memory workflow for this session.
+```
+
+### Full vault audit prompt
+Use after a long gap, before cleanup, after major changes, or when you want Hermes to refresh its understanding of the whole vault.
+
+```text
+Use the current folder’s Obsidian vault as canonical external memory. Audit the whole vault, refresh your map of the existing notes and structure, then continue using the documented hybrid memory workflow.
+```
+
+Recommendation:
+- default to the normal activation prompt
+- use the deeper index-loading prompt when you want more context up front
+- use the full vault audit prompt only when broader reorientation is actually useful
+
+See also:
+- [[Vault Activation Prompts]]
+
 ## Notes
 - Do not store secrets in plaintext
 - Prefer canonical notes over duplicates
