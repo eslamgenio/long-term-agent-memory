@@ -1,6 +1,6 @@
-# Hermes Obsidian Memory Vault
+# Obsidian Memory Vault for AI Agents
 
-This vault is the long-term external memory system for Hermes.
+This vault can be used as a long-term external memory system for any AI agent.
 
 ## Purpose
 - Preserve durable knowledge beyond the active model context window
@@ -12,7 +12,7 @@ This vault is the long-term external memory system for Hermes.
 - [[index]] — catalog of durable knowledge
 - [[Memory Architecture]] — memory model and design principles
 - [[log]] — append-only operational history
-- [[AGENTS]] — operating contract for how Hermes should use this vault
+- [[AGENTS]] — operating contract for how an AI agent should use this vault
 
 ## Main structure
 - `inbox/` — temporary capture and staging
@@ -27,7 +27,7 @@ This vault is the long-term external memory system for Hermes.
 - `raw/` — immutable source material and attachments
 - `templates/` — reusable note templates
 
-## How Hermes uses this vault
+## How an AI agent uses this vault
 1. Capture incoming information
 2. Classify it by memory type
 3. Distill the durable signal
@@ -39,15 +39,15 @@ This vault is the long-term external memory system for Hermes.
 
 ## Management policy
 This vault currently uses a hybrid management model:
-- Hermes may autonomously maintain routine notes, links, indexes, and memory hygiene
-- Hermes should ask before major restructures, bulk renames, bulk deletions, or schema changes
+- the agent may autonomously maintain routine notes, links, indexes, and memory hygiene
+- the agent should ask before major restructures, bulk renames, bulk deletions, or schema changes
 
 See also:
 - [[Vault Management Policy]]
 - [[Memory Ingestion Workflow]]
 
 ## Vault activation prompts
-Use these ready-made prompts when you want Hermes to adopt this vault as the active external memory system.
+Use these ready-made prompts when you want an AI agent to adopt this vault as the active external memory system.
 
 ### Normal activation prompt
 Use when starting a new session or when you want standard vault-backed work without a full audit.
@@ -64,7 +64,7 @@ Use the current folder’s Obsidian vault as canonical external memory. Read the
 ```
 
 ### Full vault audit prompt
-Use after a long gap, before cleanup, after major changes, or when you want Hermes to refresh its understanding of the whole vault.
+Use after a long gap, before cleanup, after major changes, or when you want the agent to refresh its understanding of the whole vault.
 
 ```text
 Use the current folder’s Obsidian vault as canonical external memory. Audit the whole vault, refresh your map of the existing notes and structure, then continue using the documented hybrid memory workflow.
