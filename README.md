@@ -47,7 +47,7 @@ See also:
 - [[Memory Ingestion Workflow]]
 
 ## Vault activation prompts (What you are looking for)
-Clone this repo and copy it to your project root, then use one of these ready-made prompts when you want an AI agent to adopt this vault as the active external memory system for your project.
+Clone this repo 'long-term-agent-memory' and copy the folder 'long-term-agent-memory' to your project root, then use one of these ready-made prompts when you want an AI agent to adopt this vault as the active external memory system for your project.
 
 ### Normal activation prompt
 Use when starting a new session or when you want standard vault-backed work without a full audit.
