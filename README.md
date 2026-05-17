@@ -47,27 +47,27 @@ See also:
 - [[Memory Ingestion Workflow]]
 
 ## Vault activation prompts (What you are looking for)
-Clone this repo, then use one of these ready-made prompts when you want an AI agent to adopt this vault as the active external memory system.
+Clone this repo and copy it to your project root, then use one of these ready-made prompts when you want an AI agent to adopt this vault as the active external memory system for your project.
 
 ### Normal activation prompt
 Use when starting a new session or when you want standard vault-backed work without a full audit.
 
 ```text
-Use the current folder’s Obsidian vault as canonical external memory. Read the root docs first and follow the documented hybrid memory-management workflow for this session.
+Use the 'long-term-agent-memory' folder’s Obsidian vault as canonical external memory. Read the root docs first and follow the documented hybrid memory-management workflow for this session.
 ```
 
 ### Deeper index-loading prompt
 Use when you want broader context before starting work, but not a full vault-wide audit.
 
 ```text
-Use the current folder’s Obsidian vault as canonical external memory. Read the root docs and all major index notes before continuing, then use the documented hybrid memory workflow for this session.
+Use the 'long-term-agent-memory' folder’s Obsidian vault as canonical external memory. Read the root docs and all major index notes before continuing, then use the documented hybrid memory workflow for this session.
 ```
 
 ### Full vault audit prompt
 Use after a long gap, before cleanup, after major changes, or when you want the agent to refresh its understanding of the whole vault.
 
 ```text
-Use the current folder’s Obsidian vault as canonical external memory. Audit the whole vault, refresh your map of the existing notes and structure, then continue using the documented hybrid memory workflow.
+Use the 'long-term-agent-memory' folder’s Obsidian vault as canonical external memory. Audit the whole vault, refresh your map of the existing notes and structure, then continue using the documented hybrid memory workflow.
 ```
 
 Recommendation:
