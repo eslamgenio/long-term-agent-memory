@@ -47,7 +47,7 @@ See also:
 - [[Memory Ingestion Workflow]]
 
 ## Vault activation prompts (What you are looking for)
-Clone this repo, put your project/sources folder under the root path, then use one of these ready-made prompts when you want an AI agent to adopt this vault as the active external memory system.
+Clone this repo, then use one of these ready-made prompts when you want an AI agent to adopt this vault as the active external memory system.
 
 ### Normal activation prompt
 Use when starting a new session or when you want standard vault-backed work without a full audit.
