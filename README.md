@@ -1,6 +1,6 @@
 # Obsidian Memory Vault for AI Agents
 
-This vault can be used as a long-term external memory system for any AI agent.
+This vault can be used as a long-term external memory system for any AI agent. Inspired by Andrej Karpathy's LLM Wiki: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 
 ## Purpose
 - Preserve durable knowledge beyond the active model context window
