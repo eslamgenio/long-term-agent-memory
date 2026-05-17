@@ -3,7 +3,7 @@
 ## Core notes
 - [[Home]]
 - [[Memory Architecture]]
-- [[Hermes User Profile]]
+- [[User Profile]]
 - [[log]]
 
 ## Index notes
@@ -27,7 +27,7 @@
 - [[Vault Activation Prompts]]
 
 ### Decisions
-- [[Use Obsidian as Hermes External Memory]]
+- [[Use Obsidian as External Memory]]
 
 ### References
 - No reference notes yet.

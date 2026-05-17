@@ -1,7 +1,7 @@
 # Memory Ingestion Workflow
 
 ## Purpose
-Define the end-to-end process Hermes follows to turn new information into durable, retrievable memory inside this vault.
+Define the end-to-end process an AI agent follows to turn new information into durable, retrievable memory inside this vault.
 
 ## When to use
 Use this workflow whenever new information arrives through conversation, files, links, documents, transcripts, project work, or source ingestion.
@@ -146,7 +146,7 @@ Input:
 
 Flow:
 1. classify as durable preference
-2. update `[[Hermes User Profile]]`
+2. update `[[User Profile]]`
 3. link if helpful
 4. log only if the change is meaningful to vault policy or long-term behavior
 
@@ -175,7 +175,7 @@ Flow:
 5. log the addition if it materially improves the vault
 
 ## Hybrid-policy reminder
-Under the current policy, Hermes may autonomously perform routine ingestion and maintenance. Hermes should ask first before:
+Under the current policy, the agent may autonomously perform routine ingestion and maintenance. The agent should ask first before:
 - major restructures
 - bulk renames
 - bulk deletions
@@ -185,6 +185,6 @@ Under the current policy, Hermes may autonomously perform routine ingestion and 
 ## Related Pages
 - [[Memory Architecture]]
 - [[Vault Management Policy]]
-- [[Hermes User Profile]]
+- [[User Profile]]
 - [[index]]
 - [[log]]

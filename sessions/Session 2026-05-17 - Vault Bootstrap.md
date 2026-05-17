@@ -1,7 +1,7 @@
 # Session 2026-05-17 - Vault Bootstrap
 
 ## Goal
-Bootstrap the current folder as an Obsidian vault for Hermes persistent memory.
+Bootstrap the current folder as an Obsidian vault for AI-agent persistent memory.
 
 ## Actions
 - Inspected the current folder.
@@ -22,4 +22,4 @@ The vault now has a starting structure for long-term memory management.
 - [[Home]]
 - [[index]]
 - [[Memory Architecture]]
-- [[Use Obsidian as Hermes External Memory]]
+- [[Use Obsidian as External Memory]]

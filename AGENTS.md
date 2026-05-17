@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This Obsidian vault is the long-term external memory system for Hermes.
+This Obsidian vault is a long-term external memory system for an AI agent and the user.
 
 ## Purpose
 - Preserve durable knowledge beyond the model context window.
@@ -68,5 +68,5 @@ A durable note should answer some of these:
 5. Archive or delete low-value temporary notes.
 
 ## Current policy
-- This vault starts as a general persistent memory system for Hermes and the user.
+- This vault starts as a general persistent memory system for an AI agent and the user.
 - The canonical entry points are `[[Home]]`, `[[index]]`, and `[[log]]`.

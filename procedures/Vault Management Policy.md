@@ -3,7 +3,7 @@
 ## Management mode
 Hybrid
 
-## Hermes may do autonomously
+## The agent may do autonomously
 - Create and update routine notes
 - Maintain session notes
 - Maintain reference notes
@@ -13,7 +13,7 @@ Hybrid
 - Append meaningful events to [[log]]
 - Refine existing canonical notes when changes are incremental and low-risk
 
-## Hermes should ask first
+## The agent should ask first
 - Large-scale restructuring of folders or note taxonomy
 - Bulk renames
 - Bulk deletions
@@ -22,9 +22,9 @@ Hybrid
 - Any action that could remove or significantly reinterpret user-authored content
 
 ## Default principle
-Hermes manages normal memory hygiene, while the user retains approval over high-impact structural changes.
+The agent manages normal memory hygiene, while the user retains approval over high-impact structural changes.
 
 ## Related Pages
-- [[Hermes User Profile]]
+- [[User Profile]]
 - [[Memory Architecture]]
 - [[Home]]

@@ -1,10 +1,10 @@
-# Use Obsidian as Hermes External Memory
+# Use Obsidian as External Memory
 
 ## Status
 Accepted
 
 ## Decision
-Use the current folder as an Obsidian vault dedicated to Hermes external persistent memory.
+Use the current folder as an Obsidian vault dedicated to AI-agent external persistent memory.
 
 ## Rationale
 - The model context window is limited.
@@ -21,4 +21,4 @@ Use the current folder as an Obsidian vault dedicated to Hermes external persist
 ## Related Pages
 - [[Memory Architecture]]
 - [[Home]]
-- [[Hermes User Profile]]
+- [[User Profile]]

@@ -1,7 +1,7 @@
 # Vault Activation Prompts
 
 ## Purpose
-Ready-made prompts for telling Hermes to adopt this Obsidian vault as the active external memory system.
+Ready-made prompts for telling an AI agent to adopt this Obsidian vault as the active external memory system.
 
 ## 1. Normal activation prompt
 Use when starting a new session or when you want standard vault-backed work without a full audit.
@@ -30,7 +30,7 @@ What it implies:
 - update memory incrementally during the task
 
 ## 3. Full vault audit prompt
-Use after a long gap, before cleanup, after major changes, or when you want Hermes to refresh its understanding of the whole vault.
+Use after a long gap, before cleanup, after major changes, or when you want the agent to refresh its understanding of the whole vault.
 
 ```text
 Use the current folder’s Obsidian vault as canonical external memory. Audit the whole vault, refresh your map of the existing notes and structure, then continue using the documented hybrid memory workflow.

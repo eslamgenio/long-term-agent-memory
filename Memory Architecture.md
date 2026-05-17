@@ -1,7 +1,7 @@
 # Memory Architecture
 
 ## Goal
-Extend Hermes with a filesystem-based persistent memory system that survives beyond the model context window.
+Extend an AI agent with a filesystem-based persistent memory system that survives beyond the model context window.
 
 ## Design principles
 - Distill, do not dump.

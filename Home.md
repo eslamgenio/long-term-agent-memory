@@ -1,12 +1,12 @@
 # Home
 
-This vault is the external long-term memory system for Hermes.
+This vault is the external long-term memory system for an AI agent.
 
 ## Start here
 - [[index]] — catalog of durable knowledge
 - [[Memory Architecture]] — how the vault is organized
 - [[log]] — append-only operational log
-- [[Hermes User Profile]] — stable user preferences and operating context
+- [[User Profile]] — stable user preferences and operating context
 
 ## Main areas
 - [[Projects Index]]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "log"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hermes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,13 +183,16 @@
   },
   "active": "d80bebea0bf5aef8",
   "lastOpenFiles": [
-    "procedures/Memory Ingestion Workflow.md",
     "procedures/Vault Management Policy.md",
-    "procedures/Vault Activation Prompts.md",
+    "Memory Architecture.md",
+    "User Profile.md",
+    "AGENTS.md",
     "Home.md",
+    "decisions/Use Obsidian as External Memory.md",
+    "procedures/Memory Ingestion Workflow.md",
+    "procedures/Vault Activation Prompts.md",
     "sessions/Session 2026-05-17 - Vault Bootstrap.md",
     "README.md",
-    "AGENTS.md",
     "concepts/README.md",
     "Procedures Index.md",
     "decisions/Use Obsidian as Hermes External Memory.md",
